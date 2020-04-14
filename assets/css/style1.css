@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Supermercado+One');
-
 /* 
     Add a CSS ruleset to accomplish the following:
     - Use the 'Lato' font family at 18px throughout the body of the document
-    - cover the of the document background with the "map-bg.jpg" image in the images directory. 
+    - cover background with the "map-bg.jpg" image in the images directory. 
 */
+
 body{
     background-image:url("../images/map-bg.jpg");
     background-size:cover;
@@ -26,25 +26,32 @@ h1{
     font-size: 45px;
     color: #5d4037
 }
-
 /* 
     Update the following ruleset (#menu) to accomplish the following:
         - Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. 
 */
 #menu{     
        columns: 400px 2;
-       column-gap: 100px;
-  }
+       column-gap: 100px;}
 
+#menu {
+    columns: 400px 2;
+    column-gap: 100px;
+}
+section {
+    padding-bottom: 50px;
+}
 
-section {padding-bottom: 50px;}
-h2 {margin: 0;}
+h2 {
+    margin: 0;
+}
 
 /* 
-    Add a CSS ruleset targeting targeting the headings of the menu (e.g. "Starters") to accomplish the following:
+    Add a CSS ruleset targeting the headings of the menu (e.g. "Starters") to accomplish the following:
         - Show each of the section headings of the menu  in small caps
         - set the font color to #6d4c41
 */
+
 h2 {
        font-variant: small-caps;
        color: #6d4c41;
@@ -55,19 +62,27 @@ h2 {
         - Set the font size to 20px
         - Make the font bold
 */
+
 dt{
     font-size:20px;
     font-weight: bold ;
 }
 
-dd {margin: 0 0 12px 0; display: flex;}
-.details {order: 1;}
+dd {
+    margin: 0 0 12px 0;
+    display: flex;
+}
+
+.details {
+    order: 1;
+}
 
 /* 
      Update the following ruleset (.price) to accomplish the following:
         - Show the price of each item in a large font
         - set the font color to 'firebrick'
 */
+
 .price {
     font-size: larger;
     color: firebrick;
@@ -75,7 +90,9 @@ dd {margin: 0 0 12px 0; display: flex;}
     padding-left: 10px;
 }
 
-address {padding: 10px;}
+address {
+    padding: 10px;
+}
 
 /* 
     Add a CSS ruleset targeting the footer to accomplish the following:
